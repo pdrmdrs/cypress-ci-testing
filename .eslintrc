@@ -7,5 +7,10 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
+  },
+  "globals": {
+    "it": "readonly",
+    "document": "readonly",
+    "window": "readonly"
   }
 }
